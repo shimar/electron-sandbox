@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/shimar/electron-sandbox/issues"
   },
-  "homepage": "https://github.com/shimar/electron-sandbox#readme"
+  "homepage": "https://github.com/shimar/electron-sandbox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-run": "^1.6.10"
+  }
 }
