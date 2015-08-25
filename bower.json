@@ -1,0 +1,19 @@
+{
+  "name": "electron-sandbox",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shimar/electron-sandbox",
+  "authors": [
+    "shimar <shima01dev@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
