@@ -1,0 +1,27 @@
+extends layouts/default
+
+block content
+  .page-header
+    h1 Dialog
+    
+  .row
+    .col-xs-12.col-sm-12.col-md-12
+      h2 OpenDialog/SaveDialog
+      p
+        button#open-dialog-btn(type='button').btn.btn-default showOpenDialog
+        button#save-dialog-btn(type='button').btn.btn-default showSaveDialog
+
+      h2 MessageBox
+      p
+        button#msg-box-none-btn(type='button').btn.btn-default type="none"
+        button#msg-box-info-btn(type='button').btn.btn-default type="info"
+        button#msg-box-error-btn(type='button').btn.btn-default type="error"
+        button#msg-box-question-btn(type='button').btn.btn-default type="question"
+        button#msg-box-warning-btn(type='button').btn.btn-default type="warning"
+        
+      h2 ErrorBox
+      p
+        button#err-box-btn(type='button').btn.btn-default showErrorBox
+
+block page-script
+  script(src='js/dialog.js')

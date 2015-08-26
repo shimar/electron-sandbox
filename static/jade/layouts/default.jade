@@ -14,4 +14,9 @@ html
       .contents
         .container-fluid
           block content
+    script
+      | window.$ = window.jQuery = require('jquery')
+    script(src='./bower_components/bootstrap/dist/js/bootstrap.min.js')
+    
+    block page-script
         
