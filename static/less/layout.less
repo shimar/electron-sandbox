@@ -1,0 +1,23 @@
+@sidebar-width: 180px;
+
+#wrapper {
+  padding-left: @sidebar-width;
+
+  .sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: @sidebar-width;
+    width: @sidebar-width;
+    height: 100%;
+    margin-left: -@sidebar-width;
+    overflow-y: auto;
+    background-color: #000;
+    -webkit-box-shadow: -2px 0 0 0 rgba(255, 255, 255, .2) inset;
+  }
+
+  .contents {
+    width: 100%;
+    position: relative;
+    padding: 15px;
+  }
+}
